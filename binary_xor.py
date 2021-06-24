@@ -1,7 +1,7 @@
 def binary_xor(a: int, b: int) -> str:
   
-    a_binary = str(bin(a))[2:]  # remove the leading "0b"
-    b_binary = str(bin(b))[2:]  # remove the leading "0b"
+    a_binary = str(bin(a))[2:] 
+    b_binary = str(bin(b))[2:] 
 
     max_len = max(len(a_binary), len(b_binary))
 
